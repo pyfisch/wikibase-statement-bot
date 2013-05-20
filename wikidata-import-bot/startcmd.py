@@ -1,10 +1,9 @@
 import sys
-
-sys.path.append('C:\Users\Name\AppData\Roaming\pywikibot')
-sys.path.append('/data/project/pywikipedia/rewrite/')
-sys.path.append('/home/pyfisch/.pywikibot/')
-
 import time
+
+import pywikibot
+
+sys.path.append(pywikibot.config.base_dir)
 
 import mainclass
 
